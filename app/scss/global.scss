@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --index: calc(1vw+1vh);
+  --color-header: #f4efec;
+  --color-text: #cdc6c3;
+	--gallery-gap: calc(var(--index) * 7.5)
+}
+
+body {
+  background-image: url(../images/src/bg.jpg);
+	background-size: 50px;
+	color: #fafafa;
+	font-family: raleway-c;
+	overflow-x: hidden;
+}
+
+/* will-change */
+.content, .header-section__hero, .main-header, .gallery > * {
+	will-change: transform;
+}
+
